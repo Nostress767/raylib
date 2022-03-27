@@ -1,4 +1,4 @@
-cf=/c /utf-8 /F10000000 /nologo /O2 /W3 /MD /DPLATFORM_DESKTOP /DSTBI_NO_SIMD /D_CRT_SECURE_NO_WARNINGS /DMA_NO_WASAPI /DGRAPHICS_API_OPENGL_33
+cf=/c /utf-8 /nologo /O2 /W3 /MD /DPLATFORM_DESKTOP /DSTBI_NO_SIMD /D_CRT_SECURE_NO_WARNINGS /DMA_NO_WASAPI /DGRAPHICS_API_OPENGL_33
 
 webcf=-std=gnu99 -Os -Wall -D_DEFAULT_SOURCE -Wno-missing-braces -Werror=pointer-arith -fno-strict-aliasing
 webi=-I. -Iexternal/glfw/include -Iexternal/glfw/deps/mingw
